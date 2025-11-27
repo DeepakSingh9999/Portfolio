@@ -9,7 +9,7 @@ export default function Certificates(){
         {id: 1, 
             title: 'McKinsey Forward Program, July 2025', 
             description: 'Completed a 10 week program covering adaptability, critical thinking, problem solving skills, communication and digital workplace skills.', 
-            certificatelink: 'https://www.credly.com/badges/bf698460-ffa2-4257-9373-189c008f3d2b/public_url',
+            certificatelink: 'https://drive.google.com/uc?export=download&id=1Bfx9KnxNIzQiVOa0Lcdm0RpYxuaJLumi',
             thumbnail: `${thumbnail1}`
         },
         {id: 2, 
