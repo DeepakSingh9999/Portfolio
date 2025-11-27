@@ -29,9 +29,9 @@ Prerequisites
 Node.js: Make sure you have Node.js
 
 installed.
-
+```
 npm or yarn: You can use either of these package managers.
-
+```
 Steps
 
 Clone the repository:
