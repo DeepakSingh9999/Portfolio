@@ -83,9 +83,9 @@ body{
 }
 
 .rotating-animation {
-  animation: rotate 10s linear infinite;
-  -moz-animation: rotate 10s linear infinite;
-  -webkit-animation: rotate 10s linear infinite;
+  animation: rotate 10s linear;
+  -moz-animation: rotate 10s linear;
+  -webkit-animation: rotate 10s linear;
 }
 
 @keyframes bottom-appear{
