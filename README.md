@@ -24,54 +24,51 @@ https://portfolio-eta-eosin-58.vercel.app/
 
 To run this project locally, follow these steps:
 
-Prerequisites
+### Prerequisites
 
-Node.js: Make sure you have Node.js
-
-installed.
-```
+Node.js: Make sure you have Node.js installed.
 npm or yarn: You can use either of these package managers.
-```
+
 Steps
 
-Clone the repository:
-
+* Clone the repository:
+```
 git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
+```
 
-
-Install dependencies:
+* Install dependencies:
 
 If you're using npm:
-
+```
 npm install
-
+```
 
 Or with yarn:
-
+```
 yarn install
-
+```
 
 Run the development server:
 
 With npm:
-
+```
 npm run dev
-
+```
 
 Or with yarn:
-
+```
 yarn dev
+```
 
-
-The app will be running at http://localhost:3000 by default.
+> The app will be running at http://localhost:5173 by default.
 
 Building for Production
 
 To create a production build of the portfolio, use the following command:
-
+```
 npm run build
-
+```
 
 This will create an optimized and minified version of the portfolio in the dist folder. You can then deploy it to a static hosting provider like Netlify, Vercel, or GitHub Pages.
 
