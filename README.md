@@ -66,7 +66,7 @@ yarn dev
 
 > The app will be running at http://localhost:5173 by default.
 
-Building for Production
+* Building for Production
 
 To create a production build of the portfolio, use the following command:
 ```
