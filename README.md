@@ -15,8 +15,11 @@ https://portfolio-eta-eosin-58.vercel.app/
 ## Features 🎨
 
 * Home Section: Introduction and welcome message.
-* Projects: A showcase of personal and professional projects with descriptions and links.
+* About: Information about me, my background and what drives my passion for web development.
 * Skills: A list of technologies and tools I am proficient in.
+* Projects: A showcase of personal and professional projects with descriptions and links.
+* Experience: Highlights of my professional experience, including past roles and key achievements.
+* Certificate: A list of technologies and tools I am proficient in.
 * Contact: A contact form to get in touch with me.
 * Smooth Animations: CSS animations to enhance the user experience (e.g., hover effects, fade-ins, etc.).
 
