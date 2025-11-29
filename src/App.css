@@ -59,6 +59,7 @@ body{
   text-decoration: underline;
   text-decoration-color:  #3a739c;
   text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.13em;
 }
 
 .section-splitter{
