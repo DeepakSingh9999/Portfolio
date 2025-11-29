@@ -419,6 +419,31 @@ body{
   }
 }
 
+/*  --  ReadMore Component  --  */
+.readmore-container{
+  color: black;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.readmore-description{
+  display: inline;
+  background-color: white;
+  border: 1px solid rgba(244, 241, 241, 0.293);
+  box-shadow: rgba(255, 255, 255, 0.847) -0.5em -0.5em 0.8em, rgba(0, 0, 0, 0.15) 0.5em 0.5em 0.8em;
+  padding: 1em;
+  border-radius: 0.8em;
+}
+
+.readmore-button{
+  display: inline;
+  margin: 0;
+  color: gray;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
 /*  --  Skill Component --  */
 .skills-container{
   color: black;
