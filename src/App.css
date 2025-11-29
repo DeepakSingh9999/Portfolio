@@ -433,6 +433,7 @@ body{
   box-shadow: rgba(255, 255, 255, 0.847) -0.5em -0.5em 0.8em, rgba(0, 0, 0, 0.15) 0.5em 0.5em 0.8em;
   padding: 1em;
   border-radius: 0.8em;
+  text-align: justify;
 }
 
 .readmore-description::first-letter {
