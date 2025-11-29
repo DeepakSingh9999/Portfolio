@@ -4,7 +4,8 @@ export default function ReadMore(){
 
     const [isExpanded, setIsExpanded] = useState(false);
 
-    const text = `Hi, I’m Deepak Singh, a passionate frontend developer. I’m always curious and driven by a desire to learn, grow, and create meaningful things. Whether it’s through coding, design, writing, or simply connecting with people, I strive to make an impact in everything I do. I’ve spent my time honing my skills in Python, JavaScript, React.js and I’m always looking for new ways to innovate and challenge myself. I’m fortunate to have worked on projects that have helped [mention the type of work or impact, e.g., businesses improve their processes, communities connect, etc.].`;
+    const text = `I’m Deepak Singh, an aspiring Frontend Developer with hands-on experience in Python, JavaScript and React. I’ve worked on real projects through internships and industry simulations, building responsive interfaces, fixing bugs, and delivering clean, reliable code.
+I love learning new technologies, solving problems, and creating products that are simple and meaningful to use. Outside of tech, I enjoy digital art and jogging.`;
     const maxLength = 120;
 
     function toggleReadMore() {
