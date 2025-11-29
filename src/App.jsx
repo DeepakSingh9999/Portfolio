@@ -9,6 +9,7 @@ import Footer from './assets/components/footer.jsx'
 import Certificates from './assets/components/certificates.jsx'
 import Experience from './assets/components/experiences.jsx'
 import ContactForm from './assets/components/contactForm.jsx'
+import ReadMore from './assets/components/readmore.jsx'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <Header />
       <About />
       <div className="main-container">
+        <ReadMore />
+        <div className="section-splitter"></div>
         <Skills />
         <div className="section-splitter"></div>
         <Projects />
