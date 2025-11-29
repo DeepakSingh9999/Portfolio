@@ -272,7 +272,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
+        margin: 0.7em;
         text-align: center;
         box-shadow:  rgba(255, 255, 255, 0.847) -0.5em -0.5em 0.8em, rgba(0, 0, 0, 0.15) 0.5em 0.5em 0.8em;
     }
