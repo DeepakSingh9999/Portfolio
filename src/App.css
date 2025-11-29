@@ -435,6 +435,15 @@ body{
   border-radius: 0.8em;
 }
 
+.readmore-description::first-letter {
+  color: red;
+  font-weight: bold;
+  font-family: inherit;
+  initial-letter: 2;
+  -webkit-initial-letter: 2;
+  padding-right: 0.1em;
+}
+
 .readmore-button{
   display: inline;
   margin: 0;
