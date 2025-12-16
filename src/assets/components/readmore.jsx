@@ -4,7 +4,7 @@ export default function ReadMore(){
 
     const [isExpanded, setIsExpanded] = useState(false);
 
-    const text = `I’m Deepak Singh, a Frontend Developer with hands-on experience in Python, JavaScript and React. I’ve worked on real projects through internships and industry simulations, building responsive interfaces, fixing bugs, and delivering clean, reliable code.
+    const text = `I’m Deepak Singh, a Frontend Developer with hands-on experience in Python, JavaScript and currenlty learning React. I’ve worked on real projects through internships and industry simulations, building responsive interfaces, fixing bugs, and delivering clean, reliable code.
 I love learning new technologies, solving problems, and creating products that are simple and meaningful to use. Outside of tech, I enjoy digital art and jogging.`;
     const maxLength = 120;
 
