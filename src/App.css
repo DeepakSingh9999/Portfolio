@@ -235,10 +235,6 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(./assets/images/shriyantra.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 250px 250px;
   background-color: rgba(13,19,45,1);
   z-index: 500;
 }
