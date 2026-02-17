@@ -1,6 +1,6 @@
 import projectLink1 from '../images/project-journal.png'
-import projectLink3 from '../images/project-facts.png'
 import projectLink2 from '../images/project-clone.png'
+import projectLink3 from '../images/project-facts.png'
 import projectLink4 from '../images/project-chef.png'
 export default function Projects(){
 
