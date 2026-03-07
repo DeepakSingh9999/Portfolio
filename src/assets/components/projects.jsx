@@ -6,6 +6,15 @@ export default function Projects(){
 
     const projects = [
         {id: 1,
+            title: 'Tenzie Game',
+            image: `${projectLink4}`,
+            description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory!',
+            techStack: 'HTML, CSS, JSX, REACT',
+            liveLink: '',
+            viewCode: 'https://github.com/DeepakSingh9999/Tenzie-Game'
+        },
+        
+        {id: 2,
             title: 'My Travel Journal',
             image: `${projectLink1}`,
             description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
@@ -14,7 +23,7 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/React-Travel-Journal'
         },
         
-        {id: 2,
+        {id: 3,
             title: 'Google Frontend Clone',
             image: `${projectLink2}`,
             description: 'This project is a frontend-only clone of Google’s search interfaces. It replicates the design and functionality of Google Search, Google Image Search, Google Advanced Search.',
@@ -23,7 +32,7 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/Search-Clone'
         },
         
-        {id: 3,
+        {id: 4,
             title: 'React Facts - A Static Website',
             image: `${projectLink3}`,
             description: `This is a simple, static website built with React.js that highlights some of the most fascinating and useful facts about React. Whether you're a beginner or an experienced developer, you'll find something new to learn about this powerful JavaScript library.`,
@@ -32,7 +41,7 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/React-Static-Page'
         },
         
-        {id: 4,
+        {id: 5,
             title: 'Chef Claude (Upcoming)',
             image: `${projectLink4}`,
             description: 'This project sends a user provided set of ingredients to the Chef Claude API, which processes the input and responds with a creative recipe suggestion. which then is displayed on frontend.',
