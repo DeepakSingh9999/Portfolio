@@ -6,6 +6,12 @@ import thumbnail4 from  "../certificates/thumbnail4.png"
 export default function Certificates(){
 
     const items = [
+        {id: 0, 
+            title: 'Learn React by Scrimba, March 2026', 
+            description: 'Completed a 10 week program covering adaptability, critical thinking, problem solving skills, communication and digital workplace skills.', 
+            certificatelink: 'https://scrimba.com/learn-react-c0e;cert24zAwPPowNUfV2kHFhk5fzfVD39HyHBRbL47S',
+            thumbnail: `${thumbnail1}`
+        },
         {id: 1, 
             title: 'McKinsey Forward Program, July 2025', 
             description: 'Completed a 10 week program covering adaptability, critical thinking, problem solving skills, communication and digital workplace skills.', 
@@ -25,7 +31,7 @@ export default function Certificates(){
             thumbnail: `${thumbnail3}`
         },
         {id: 4, 
-            title: 'Accenture UK Developer and Technology Virtual Experience, April 2025', 
+            title: 'JavaScript', 
             description: 'Completed the Developer and Technology Job Simulation, gaining an end-to-end understanding of the Software Development Lifecycle, designed an algorithm with flow diagrams and debugged Python code by fixing syntax and logic errors.', 
             certificatelink: 'https://www.theforage.com/completion-certificates/ovyvuqqNRQKBjNxbj/3xnZEj9kfpoQKW885_ovyvuqqNRQKBjNxbj_Xnus9ZBvpP3dZwci2_1744189751228_completion_certificate.pdf',
             thumbnail: `${thumbnail4}`
