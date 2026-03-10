@@ -1,3 +1,4 @@
+import thumbnail0 from  "../certificates/thumbnail0.png"
 import thumbnail1 from  "../certificates/thumbnail1.png"
 import thumbnail2 from  "../certificates/thumbnail2.png"
 import thumbnail3 from  "../certificates/thumbnail3.png"
@@ -8,9 +9,9 @@ export default function Certificates(){
     const items = [
         {id: 0, 
             title: 'Learn React by Scrimba, March 2026', 
-            description: 'Completed a 10 week program covering adaptability, critical thinking, problem solving skills, communication and digital workplace skills.', 
+            description: 'Completed a comprehensive 15 hour React course, gaining hands-on experience with core React concepts such as components, props, state and building interactive user interfaces.', 
             certificatelink: 'https://scrimba.com/learn-react-c0e;cert24zAwPPowNUfV2kHFhk5fzfVD39HyHBRbL47S',
-            thumbnail: `${thumbnail1}`
+            thumbnail: `${thumbnail0}`
         },
         {id: 1, 
             title: 'McKinsey Forward Program, July 2025', 
