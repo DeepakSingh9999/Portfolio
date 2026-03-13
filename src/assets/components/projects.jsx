@@ -15,23 +15,23 @@ export default function Projects(){
             liveLink: '',
             viewCode: 'https://github.com/DeepakSingh9999/Tenzie-Game'
         },
-        
+
         {id: 2,
-            title: 'My Travel Journal',
-            image: `${projectLink2}`,
-            description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
-            techStack: 'HTML, CSS, JSX, REACT',
-            liveLink: 'https://react-travel-journal-two.vercel.app/',
-            viewCode: 'https://github.com/DeepakSingh9999/React-Travel-Journal'
-        },
-        
-        {id: 3,
             title: 'Google Frontend Clone',
             image: `${projectLink3}`,
             description: 'This project is a frontend-only clone of Google’s search interfaces. It replicates the design and functionality of Google Search, Google Image Search, Google Advanced Search.',
             techStack: 'HTML, CSS, JAVASCRIPT',
             liveLink: 'https://search-clone-drab.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/Search-Clone'
+        },
+        
+        {id: 3,
+            title: 'My Travel Journal',
+            image: `${projectLink2}`,
+            description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
+            techStack: 'HTML, CSS, JSX, REACT',
+            liveLink: 'https://react-travel-journal-two.vercel.app/',
+            viewCode: 'https://github.com/DeepakSingh9999/React-Travel-Journal'
         },
         
         {id: 4,
