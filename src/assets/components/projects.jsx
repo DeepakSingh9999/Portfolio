@@ -7,7 +7,7 @@ import projectLink5 from '../images/project-chef.png'
 export default function Projects(){
 
     const projects = [
-        {id: 1,
+        {id: 9,
             title: 'Tenzie Game',
             image: `${projectLink1}`,
             description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory!',
