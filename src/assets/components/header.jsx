@@ -2,7 +2,7 @@ import {useState} from 'react';
 import icon from '../images/flower.png'
 
 export default function Header(){
-    const resumLink = "https://drive.google.com/uc?export=download&id=1RE7ohxaLcidfl1d0IEsJNEpsB36K93hK";
+    const resumLink = "https://drive.google.com/uc?export=download&id=1Yux8eRiDpd_7i-QfZrqv3yU-BJvpo5qy";
         // old id 1StzsacUVCtJJ95UAhShkCEPoKNu1WO19
        // https://docs.google.com/document/d/1StzsacUVCtJJ95UAhShkCEPoKNu1WO19/edit?usp=sharing&ouid=107371580307565528072&rtpof=true&sd=true
 
