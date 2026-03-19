@@ -44,12 +44,12 @@ export default function Projects(){
         },
         
         {id: 5,
-            title: 'Chef Claude (Upcoming)',
+            title: 'Chef Gemini',
             image: `${projectLink5}`,
-            description: 'This project sends a user provided set of ingredients to the Chef Claude API, which processes the input and responds with a creative recipe suggestion. which then is displayed on frontend.',
+            description: 'This project sends a user provided set of ingredients to the Gemini API, which processes the input and responds with a creative recipe suggestion. which then is displayed on frontend.',
             techStack: 'HTML, CSS, JSX, REACT',
-            liveLink: '',
-            viewCode: 'https://github.com/DeepakSingh9999'
+            liveLink: 'https://chef-gemini-379n.vercel.app/',
+            viewCode: 'https://github.com/DeepakSingh9999/Chef-Gemini'
         },
     ];
 
