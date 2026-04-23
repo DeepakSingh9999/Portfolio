@@ -21,7 +21,7 @@ export default function Projects(){
             title: 'Chef Gemini',
             image: `${projectLink2}`,
             description: 'This project sends a user provided set of ingredients to the Gemini API, which processes the input and responds with a creative recipe suggestion. which then is displayed on frontend.',
-            techStack: 'HTML, CSS, JSX, REACT',
+            techStack: 'HTML, CSS, JSX, REACT, MARKDOWN',
             liveLink: 'https://chef-gemini-379n.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/Chef-Gemini'
         },
@@ -30,7 +30,7 @@ export default function Projects(){
             title: 'Tenzie Game',
             image: `${projectLink3}`,
             description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory!',
-            techStack: 'HTML, CSS, JSX, REACT',
+            techStack: 'HTML, CSS, JSX, REACT, ARIA',
             liveLink: 'https://tenzie-game-theta.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/Tenzie-Game'
         },
