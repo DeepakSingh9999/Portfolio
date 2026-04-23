@@ -11,7 +11,7 @@ export default function Projects(){
         {id: 1,
             title: 'Vanlife',
             image: `${projectLink1}`,
-            description: '',
+            description: 'The project utilizes React Router to create a seamless, single-page application (SPA) experience with complex routing requirements, and using Miraje.js for dummy backend.',
             techStack: 'HTML, CSS, JSX, REACT, REACT ROUTER, MIRAGE.JS',
             liveLink: 'https://vanlife-three-beryl.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/Vanlife'
