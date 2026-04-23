@@ -1,4 +1,4 @@
-
+import projectLink1 from '../images/project-van.png'
 import projectLink2 from '../images/project-chef.png'
 import projectLink3 from '../images/project-tenzie.png'
 import projectLink4 from '../images/project-clone.png'
