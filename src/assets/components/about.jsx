@@ -1,4 +1,4 @@
-import image from '../images/man.png'
+import image from '../images/me.png'
 
 export default function About(){
     function handleClick(key){
