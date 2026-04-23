@@ -31,7 +31,7 @@ export default function Projects(){
             image: `${projectLink3}`,
             description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory!',
             techStack: 'HTML, CSS, JSX, REACT',
-            liveLink: '',
+            liveLink: 'https://tenzie-game-theta.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/Tenzie-Game'
         },
 
