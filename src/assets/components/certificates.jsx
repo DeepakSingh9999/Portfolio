@@ -7,8 +7,8 @@ export default function Certificates(){
 
     const items = [
         {id: 1, 
-            title: 'Learn React by Scrimba, March 2026', 
-            description: 'Completed a comprehensive 15 hour React course, gaining hands-on experience with core React concepts such as components, props, state and building interactive user interfaces.', 
+            title: 'Advanced React by Scrimba, April 2026', 
+            description: 'Completed a comprehensive course on advanced React concepts, gaining hands-on experience with React Router (including nested routes and Outlet), Context API, protected routes, and performance optimization techniques such as lazy loading, Suspense, useMemo, useCallback and React.memo.', 
             certificatelink: 'https://scrimba.com/learn-react-c0e;cert24zAwPPowNUfV2kHFhk5fzfVD39HyHBRbL47S',
             thumbnail: `${thumbnail1}`
         },
