@@ -563,7 +563,7 @@ body{
 
 .project-buttons > button {
   margin: 0.2em;
-  border: 1px solid transparent;
+  border: 1px solid white;
   background-image: linear-gradient(whitesmoke, rgb(159, 240, 37));
   font-family: inherit;
   padding: 0.6em;
@@ -668,7 +668,7 @@ body{
 
 .text-area-certificate > button {
   margin: 0.2em;
-  border: 1px solid transparent;
+  border: 1px solid white;
   background-image: linear-gradient(whitesmoke, rgb(159, 240, 37));
   font-family: inherit;
   padding: 0.6em;
