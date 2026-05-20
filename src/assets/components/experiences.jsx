@@ -13,8 +13,9 @@ export default function Experience(){
                         </div>
                         <div className="experience-description">
                             <ul>
-                                <li>Built responsive web pages and applied problem-solving skills to reduce load time by 20% and reduce defects by 30%.</li>
-                                <li>Applied industry-standard practices in unit testing, achieved 95% cross-browser compatibility.</li>
+                                <li>Collaborated with UX designers to translate design mockups into responsive, reusable React components.</li>
+                                <li>Optimized frontend performance by utilizing industry best practices and successfully cutting load times by 20%.</li>
+                                <li>Optimized UI responsiveness and compatibility, achieving a 95% cross-browser success rate through robust testing practices.</li>
                                 <li>Successfully delivered all mandatory projects and side projects within timeframe.</li>
                             </ul>
                         </div>
