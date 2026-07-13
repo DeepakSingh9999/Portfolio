@@ -13,7 +13,7 @@ export default function Experience(){
                         </div>
                         <div className="experience-description">
                             <ul>
-                                <li>Developed & maintained responsive React applications for desktop, tablet & mobile platforms.</li>
+                                <li>Developed &amp; maintained responsive React applications for desktop, tablet &amp; mobile platforms.</li>
                                 <li>Built reuseable UI components to improve code maintainability.</li>
                                 <li>Translated complex UI/UX wireframes and mockups into interactive web pages, collaborating closely with designers to ensure pixel-perfect and consistent design implementation.</li>
                                 <li>Optimized frontend performance and loading speeds while systematically troubleshooting and resolving cross-browser bugs to improve overall usability and accessibility.</li>
