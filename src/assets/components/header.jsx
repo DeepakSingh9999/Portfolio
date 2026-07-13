@@ -2,7 +2,8 @@ import {useState} from 'react';
 import icon from '../images/flower.png'
 
 export default function Header(){
-    const resumLink = "https://drive.google.com/uc?export=download&id=14eurWz4XrpWHMq_qli_rXTF_3c85Qhjq";
+    const resumLink = "https://drive.google.com/uc?export=download&id=1i3oHg_G_18WLVIV7Q-bch1KuPVzBCJwH";//14eurWz4XrpWHMq_qli_rXTF_3c85Qhjq";
+    //https://drive.google.com/file/d/1i3oHg_G_18WLVIV7Q-bch1KuPVzBCJwH/view?usp=sharing
 
     const [isOpen, setIsOpen] = useState(false);
 
