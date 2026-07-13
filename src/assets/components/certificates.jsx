@@ -1,4 +1,4 @@
-import thumbnail1 from  "../certificates/thumbnail0.png"
+import thumbnail1 from  "../certificates/thumbnail01.png"
 import thumbnail2 from  "../certificates/thumbnail02.png"
 import thumbnail3 from  "../certificates/thumbnail03.png"
 import thumbnail4 from  "../certificates/thumbnail04.png"
