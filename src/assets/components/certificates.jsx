@@ -7,15 +7,15 @@ export default function Certificates(){
 
     const items = [
         {id: 1, 
-            title: 'Advanced React by Scrimba, April 2026', 
-            description: 'Completed a comprehensive course on advanced React concepts, gaining hands-on experience with React Router (including nested routes and Outlet), Context API, protected routes, and performance optimization techniques such as lazy loading, Suspense, useMemo, useCallback and React.memo.', 
-            certificatelink: 'https://scrimba.com/learn-react-c0e;cert24zAwPPowNUfV2kHFhk5fzfVD39HyHBRbL47S',
+            title: 'Software Engineer Intern, May 2026', 
+            description: 'Passed the HackerRank role certification test.', 
+            certificatelink: 'https://www.hackerrank.com/certificates/5ee714704686',
             thumbnail: `${thumbnail1}`
         },
         {id: 2, 
-            title: 'McKinsey Forward Program, July 2025', 
-            description: 'Completed a 10 week program covering adaptability, critical thinking, problem solving skills, communication and digital workplace skills.', 
-            certificatelink: 'https://drive.google.com/uc?export=download&id=1Bfx9KnxNIzQiVOa0Lcdm0RpYxuaJLumi',
+            title: 'Advanced React by Scrimba, April 2026', 
+            description: 'Completed a comprehensive course on advanced React concepts, gaining hands-on experience with React Router (including nested routes and Outlet), Context API, protected routes, and performance optimization techniques such as lazy loading, Suspense, useMemo, useCallback and React.memo.', 
+            certificatelink: 'https://scrimba.com/learn-react-c0e;cert24zAwPPowNUfV2kHFhk5fzfVD39HyHBRbL47S',
             thumbnail: `${thumbnail2}`
         },
         {id: 3, 
