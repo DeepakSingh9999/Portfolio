@@ -8,7 +8,7 @@ export default function Certificates(){
     const items = [
         {id: 1, 
             title: 'Software Engineer Intern, May 2026', 
-            description: 'Passed the HackerRank role certification test. It covers topics like Problem solving, SQL, and REST API.', 
+            description: 'Successfully passed the HackerRank Role Certification test, validating technical skills in Problem Solving, SQL, and REST API development through a standardized coding assessment.', 
             certificatelink: 'https://www.hackerrank.com/certificates/5ee714704686',
             thumbnail: `${thumbnail1}`
         },
