@@ -25,7 +25,7 @@ export default function Experience(){
                     <div className="experience bottom-animation">
                         <div className="experience-heading">
                             <h3 className="experience-title">Freelancer</h3>
-                            <p className="experience-duration">September 2025- Present</p>
+                            <p className="experience-duration">September 2025- June 2026</p>
                         </div>
                         <div className="experience-description">
                             <ul>
