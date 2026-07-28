@@ -29,7 +29,7 @@ export default function Projects(){
         
         {id: 3,
             title: 'Chef Gemini',
-            image: `${projectLink2}`,
+            image: `${projectLink3}`,
             description: 'This project sends a user provided set of ingredients to the Gemini API, which processes the input and responds with a creative recipe suggestion in Markdown, which then is displayed on frontend.',
             techStack: 'HTML, CSS, JSX, REACT, MARKDOWN',
             liveLink: 'https://chef-gemini-379n.vercel.app/',
@@ -38,7 +38,7 @@ export default function Projects(){
         
         {id: 4,
             title: 'Tenzie Game',
-            image: `${projectLink3}`,
+            image: `${projectLink4}`,
             description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory! Interactive elements are enhanced with ARIA labels to improve accessibility for screen reader users.',
             techStack: 'HTML, CSS, JSX, REACT, ARIA',
             liveLink: 'https://tenzie-game-theta.vercel.app/',
@@ -47,7 +47,7 @@ export default function Projects(){
 
         {id: 5,
             title: 'Google Frontend Clone',
-            image: `${projectLink4}`,
+            image: `${projectLink5}`,
             description: 'This project is a frontend-only clone of Google’s search interfaces. It replicates the design and functionality of Google Search, Google Image Search, Google Advanced Search.',
             techStack: 'HTML, CSS, JAVASCRIPT',
             liveLink: 'https://search-clone-drab.vercel.app/',
@@ -56,7 +56,7 @@ export default function Projects(){
         
         {id: 6,
             title: 'My Travel Journal',
-            image: `${projectLink5}`,
+            image: `${projectLink6}`,
             description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
             techStack: 'HTML, CSS, JSX, REACT',
             liveLink: 'https://react-travel-journal-two.vercel.app/',
