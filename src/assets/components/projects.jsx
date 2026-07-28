@@ -21,7 +21,7 @@ export default function Projects(){
         {id: 2,
             title: 'Wild Horizon API',
             image: `${projectLink2}`,
-            description: `RESTful API`,
+            description: `Wild Horizons is a minimalist yet powerful REST-style API that lets you discover some of the world's most unusual, breathtaking, and mysterious destinations. Built using pure Node.js to showcase strong fundamentals and clean architecture.`,
             techStack: 'JavaScript, Node.js',
             liveLink: '',
             viewCode: ''
