@@ -1,9 +1,10 @@
 import projectLink1 from '../images/project-van.png'
-import projectLink2 from '../images/project-chef.png'
-import projectLink3 from '../images/project-tenzie.png'
-import projectLink4 from '../images/project-clone.png'
-import projectLink5 from '../images/project-journal.png'
-import projectLink6 from '../images/project-facts.png'
+import projectLink2 from '../images/project-horizon.png'
+import projectLink3 from '../images/project-chef.png'
+import projectLink4 from '../images/project-tenzie.png'
+import projectLink5 from '../images/project-clone.png'
+import projectLink6 from '../images/project-journal.png'
+
 
 export default function Projects(){
 
@@ -18,6 +19,15 @@ export default function Projects(){
         },
         
         {id: 2,
+            title: 'Wild Horizon API',
+            image: `${projectLink2}`,
+            description: `RESTful API`,
+            techStack: 'JavaScript, Node.js',
+            liveLink: '',
+            viewCode: ''
+        },
+        
+        {id: 3,
             title: 'Chef Gemini',
             image: `${projectLink2}`,
             description: 'This project sends a user provided set of ingredients to the Gemini API, which processes the input and responds with a creative recipe suggestion in Markdown, which then is displayed on frontend.',
@@ -26,7 +36,7 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/Chef-Gemini'
         },
         
-        {id: 3,
+        {id: 4,
             title: 'Tenzie Game',
             image: `${projectLink3}`,
             description: 'A fun and simple dice game built with React. The goal is to roll until all dice show the same number. You can hold dice between rolls to lock their values and strategically reach victory! Interactive elements are enhanced with ARIA labels to improve accessibility for screen reader users.',
@@ -35,7 +45,7 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/Tenzie-Game'
         },
 
-        {id: 4,
+        {id: 5,
             title: 'Google Frontend Clone',
             image: `${projectLink4}`,
             description: 'This project is a frontend-only clone of Google’s search interfaces. It replicates the design and functionality of Google Search, Google Image Search, Google Advanced Search.',
@@ -44,22 +54,13 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/Search-Clone'
         },
         
-        {id: 5,
+        {id: 6,
             title: 'My Travel Journal',
             image: `${projectLink5}`,
             description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
             techStack: 'HTML, CSS, JSX, REACT',
             liveLink: 'https://react-travel-journal-two.vercel.app/',
             viewCode: 'https://github.com/DeepakSingh9999/React-Travel-Journal'
-        },
-        
-        {id: 6,
-            title: 'React Facts - A Static Website',
-            image: `${projectLink6}`,
-            description: `This is a simple, static website built with React.js that highlights some of the most fascinating and useful facts about React. Whether you're a beginner or an experienced developer, you'll find something new to learn about this powerful JavaScript library.`,
-            techStack: 'HTML, CSS, JSX, REACT',
-            liveLink: 'https://react-static-page-one.vercel.app/',
-            viewCode: 'https://github.com/DeepakSingh9999/React-Static-Page'
         },
 
     ];
