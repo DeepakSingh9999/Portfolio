@@ -16,8 +16,8 @@ export default function Experience(){
                                 <li>Developed and maintained responsive React applications for desktop, tablet &amp; mobile platforms.</li>
                                 <li>Built reusable UI components to improve code maintainability.</li>
                                 <li>Translated complex UI wire frames into interactive web pages, collaborating closely with designers to ensure pixel perfect and consistent design implementation.</li>
-                                <li>Optimized frontend performance &amp; loading speeds while systematically troubleshooting and resolving cross browser bugs to improve overall usability and accessibility.</li>
-                                <li>Successfully delivered all mandatory projects and side projects within time-frame.</li>
+                                <li>Optimized front end performance &amp; loading speeds while systematically troubleshooting and resolving cross browser bugs to improve overall usability and accessibility.</li>
+                                <li>Successfully delivered all mandatory projects and side projects within time frame.</li>
                             </ul>
                         </div>
                     </div>
