@@ -12,16 +12,18 @@ export default function Header(){
             <img src={icon} alt="Logo" className="logo rotating-animation"></img>
             
             <div className='top-right-corner'>
-            <button onClick={() => window.open(resumLink, "_blank")} className="download-button">Resume ⤓</button>
+            <button onClick={() => window.open(resumLink, "_blank")} className="download-button" aria-label="Download Resume in a new tab">Resume ⤓</button>
         
-            <nav className="navdiv">
-                <button onClick={() => setIsOpen((!isOpen))} className="navOpenButton"><i className="fa-solid fa-grip-lines"></i></button>
+            <nav className="navdiv" aria-label="Main Navigation">
+                <button onClick={() => setIsOpen((!isOpen))} className="navOpenButton" aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"} aria-expanded={isOpen} aria-controls="navigation-overlay">
+                    <i className="fa-solid fa-grip-lines"></i>
+                </button>
                 {isOpen && (
                     <div className="watermark  cover-right">
                     <div className="overlay cover-right">
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><i className="fa-solid fa-xmark"></i></button>
+                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks" aria-label="Close navigation menu"><i className="fa-solid fa-xmark" aria-hidden="true"></i></button>
                         <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#about">About</a></button>
-                        <button onClick={() => window.open(resumLink, "_blank")} className="navlinks">Resume ⤓</button>
+                        <button onClick={() => window.open(resumLink, "_blank")} className="navlinks" rel="noreferrer" aria-label="Download Resume in a new tab">Resume ⤓</button>
                         <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#skills">Skills</a></button>
                         <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#projects">Projects</a></button>
                         <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#experience">Experience</a></button>
