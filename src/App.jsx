@@ -19,15 +19,15 @@ function App() {
       <About />
       <div className="main-container">
         <ReadMore />
-        <div className="section-splitter"></div>
+        <div className="section-splitter" role="separator" aria-hidden="true"></div>
         <Skills />
-        <div className="section-splitter"></div>
+        <div className="section-splitter" role="separator" aria-hidden="true"></div>
         <Projects />
-        <div className="section-splitter"></div>
+        <div className="section-splitter" role="separator" aria-hidden="true"></div>
         <Experience />
-        <div className="section-splitter"></div>
+        <div className="section-splitter" role="separator" aria-hidden="true"></div>
         <Certificates />
-        <div className="section-splitter"></div>
+        <div className="section-splitter" role="separator" aria-hidden="true"></div>
         <ContactForm />
       </div>
       <Footer />
