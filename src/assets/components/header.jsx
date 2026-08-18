@@ -9,7 +9,7 @@ export default function Header(){
 
     return(
         <div className="header-container">
-            <img src={icon} alt="Logo" className="logo rotating-animation"></img>
+            <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" ></img>
             
             <div className='top-right-corner'>
             <button onClick={() => window.open(resumLink, "_blank")} className="download-button" aria-label="Download Resume in a new tab">Resume ⤓</button>
