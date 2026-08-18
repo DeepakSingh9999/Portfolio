@@ -23,7 +23,7 @@ export default function Projects(){
             image: `${projectLink2}`,
             description: `Wild Horizons is a minimalist yet powerful REST-style API that lets you discover some of the world's most unusual, breathtaking, and mysterious destinations. Built using pure Node.js to showcase strong fundamentals and clean architecture.`,
             techStack: 'JavaScript, Node.js',
-            liveLink: 'https://github.com/DeepakSingh9999/WildHorizons',
+            liveLink: 'https://wild-horizons-eight.vercel.app/api',
             viewCode: 'https://github.com/DeepakSingh9999/WildHorizons'
         },
         
