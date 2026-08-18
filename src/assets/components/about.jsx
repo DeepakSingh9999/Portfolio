@@ -23,7 +23,7 @@ export default function About(){
                 </div>
             </div>
             <div className="image-container">
-                <img src={image} alt="Image"></img>
+                <img src={image} alt="Image" loading="lazy"></img>
             </div>
         </div>
     )
