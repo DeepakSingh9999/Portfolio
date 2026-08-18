@@ -11,7 +11,7 @@ export default function About(){
         }
     }
     return (
-        <div className="about-container">
+        <div className="about-container" role="main">
             <div className="title-container">
                 <h1 className="title">Hi! I'm </h1>
                 <h1 className="sub-title">Deepak Singh</h1>
