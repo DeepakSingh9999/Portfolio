@@ -42,7 +42,7 @@ export default function Certificates(){
             {items.map((item) => {
                 return (
                     <div key={item.id} className="certificate edges opacity-animation">
-                        <img src={item.thumbnail}  className="certificate-image" alt="IMG"></img>
+                        <img src={item.thumbnail}  className="certificate-image" alt="IMG" loading="lazy" ></img>
                         <div className="text-area-certificate">
                             <h3 className="certificate-title">{item.title}</h3>
                             <p className="certificate-description">{item.description}</p>
