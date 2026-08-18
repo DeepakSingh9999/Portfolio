@@ -75,7 +75,7 @@ export default function Projects(){
             {projects.map((project) => {
                 return(
                     <div key={project.id} className={`project edges ${project.id % 2 === 0 ? "left-animation" : "right-animation"}`}>
-                        <img src={project.image}  className="project-image" alt="IMG"></img>
+                        <img src={project.image}  className="project-image" alt="IMG" loading="lazy"></img>
                         <div className="text-area">
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
