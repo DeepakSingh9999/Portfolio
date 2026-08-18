@@ -4,8 +4,8 @@ export default function ReadMore(){
 
     const [isExpanded, setIsExpanded] = useState(false);
 
-    const text = `I’m Deepak Singh, a Junior Frontend Developer with hands-on experience in JavaScript, React and Python. Also I'm currenlty learning Node.js. I’ve worked on real projects through internships and industry simulations, building responsive interfaces, fixing bugs, and delivering clean, reliable code.
-I love learning new technologies, solving problems, and creating products that are simple and meaningful to use. Outside of tech, I enjoy digital art and jogging.`;
+    const text = `I’m Deepak Singh, a Junior Software Developer with hands on experience in JavaScript, React and Python with currenlty learning Node.js. I’ve worked on real projects through internships and industry simulations. I love building responsive interfaces, fixing bugs, and delivering clean, reliable code.
+I'm curious to learn new technologies while solving complex problems, and creating products that are simple and meaningful to use. Outside of tech, I enjoy digital art and jogging.`;
     const maxLength = 120;
 
     function toggleReadMore() {
