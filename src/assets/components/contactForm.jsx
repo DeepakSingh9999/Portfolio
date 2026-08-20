@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import useNotification from '../hooks/useNotification.jsx';
 
+const apiKey = import.meta.env.VITE_API_KEY
+
 export default function ContactForm() {
   const [result, setResult] = useState("");
   const [notification, setNotification] = useState(false);
-
-  const apiKey = import.meta.env.VITE_API_KEY
 
   const onSubmit = async (event) => {
     event.preventDefault();
