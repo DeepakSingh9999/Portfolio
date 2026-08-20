@@ -3,13 +3,13 @@ import './App.css'
 //Components
 import Header from './assets/components/header.jsx'
 import About from './assets/components/about.jsx'
+import ReadMore from './assets/components/readmore.jsx'
 import Skills from './assets/components/skills.jsx'
 import Projects from './assets/components/projects.jsx'
-import Footer from './assets/components/footer.jsx'
-import Certificates from './assets/components/certificates.jsx'
 import Experience from './assets/components/experiences.jsx'
+import Certificates from './assets/components/certificates.jsx'
 import ContactForm from './assets/components/contactForm.jsx'
-import ReadMore from './assets/components/readmore.jsx'
+import Footer from './assets/components/footer.jsx'
 
 function App() {
 
