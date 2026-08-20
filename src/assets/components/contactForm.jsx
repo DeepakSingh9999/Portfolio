@@ -5,7 +5,7 @@ export default function ContactForm() {
   const [result, setResult] = useState("");
   const [notification, setNotification] = useState(false);
 
-  const apiKey = import.meta.env.API_KEY
+  const apiKey = import.meta.env.VITE_API_KEY
 
   const onSubmit = async (event) => {
     event.preventDefault();
