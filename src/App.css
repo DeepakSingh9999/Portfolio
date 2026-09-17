@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'InstrumentSans';
-  src: url(./assets/fonts/Instrument_Sans/InstrumentSans-VariableFont_wdth\,wght.ttf),
-    url(./assets/fonts/Instrument_Sans/InstrumentSans-VariableFont_wdth\,wght.ttf);
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'InstrumentSerif';
   src: url(./assets/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf),
     url(./assets/fonts/Instrument_Serif/InstrumentSerif-Italic.ttf);
@@ -16,7 +8,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'InstrumentSerif', 'InstrumentSans', serif;
+  font-family: 'InstrumentSerif', serif;
   min-width: 100vw;
   /*background-image: linear-gradient(#051c2c,#05203f,#05203f,#05203f,#05203f,#061c2c);
   background-color: rgb(249, 248, 248);*/
