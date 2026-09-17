@@ -1,9 +1,9 @@
 import projectLink1 from '../images/project-van.png'
-import projectLink2 from '../images/project-horizon.png'
+import projectLink2 from '../images/project-horizon.webp'
 import projectLink3 from '../images/project-chef.png'
 import projectLink4 from '../images/project-tenzie.png'
 import projectLink5 from '../images/project-clone.png'
-import projectLink6 from '../images/project-journal.png'
+import projectLink6 from '../images/project-journal.webp'
 
 
 export default function Projects(){
