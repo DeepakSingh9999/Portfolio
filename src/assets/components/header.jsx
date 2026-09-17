@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import icon from '../images/flower.png'
+import icon from '../images/flower.webp'
 
 export default function Header(){
     const resumLink = "https://drive.google.com/uc?export=download&id=1jtDQURtXaKfPs5A7LUWQlzKzjG8rOLvE";
