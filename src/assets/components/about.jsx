@@ -15,7 +15,7 @@ export default function About(){
             <div className="title-container">
                 <h1 className="title">Hi! I'm </h1>
                 <h1 className="sub-title">Deepak Singh</h1>
-                <h2 className="sub-title">Frontend Developer</h2>
+                <h2 className="sub-title">Software Engineer</h2>
                 <div className="links-container" aria-label="Social media and contact links">
                     <button className="link-button icon-color-1" onClick={() => handleClick(1)}
                         type="button" aria-label="Deepak Singh's LinkedIn profile (opens in a new tab)">
@@ -32,7 +32,7 @@ export default function About(){
                 </div>
             </div>
             <div className="image-container">
-                <img src={image} alt="Image" loading="lazy"></img>
+                <img src={image} alt="Hero Image"></img>
             </div>
         </div>
     )
