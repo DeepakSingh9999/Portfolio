@@ -52,15 +52,27 @@ export default function ContactForm() {
 
 
   return (
-    <section aria-labelledby="contact">
+    <section aria-labelledby="contact-heading">
       <div className="section-heading">
         <h2 id="contact">Get in touch</h2>
       </div>
       <div className="contact-container center">
-        <form onSubmit={onSubmit} className="contact-form" aria-labelledby="contact">
-          <input type="text" name="name" required className="contact-name" placeholder="Your Name" aria-label="Your Name" autoComplete="name"/>
-          <input type="email" name="email" required className="contact-email" placeholder="Your Email" aria-label="Your Email" autoComplete="email"/>
-          <textarea name="message" required className="contact-message" placeholder="Message" aria-label="Message"></textarea>
+        <form onSubmit={onSubmit} className="contact-form">
+          <div className="form-group">
+          <label htmlFor="name-input" className="sr-only">Your Name</label>
+          <input type="text" name="name" required className="contact-name" placeholder="Your Name" autoComplete="name"/>
+          </div>
+
+          <div className="form-group">
+          <label htmlFor="email-input">Your Email</label>
+          <input type="email" name="email" required className="contact-email" placeholder="Your Email" autoComplete="email"/>
+          </div>
+
+          <div className="form-group">
+          <label htmlFor="message-input">Message</label>
+          <textarea name="message" required className="contact-message" placeholder="Message"></textarea>
+          </div>
+            
           <button aria-label="Submit contact form" type="submit">Submit Form</button>
           {/*<span>{result}</span>*/}
         </form>
