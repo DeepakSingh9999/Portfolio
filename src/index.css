@@ -114,6 +114,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 100;
+  letter-spacing: -2px;
     }
 
     .sub-title{
@@ -124,6 +125,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 100;
+  letter-spacing: -2px;
     }
     .links-container{
     display: flex;
