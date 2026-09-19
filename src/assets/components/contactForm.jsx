@@ -52,16 +52,16 @@ export default function ContactForm() {
 
 
   return (
-    <>
+    <section aria-labelledby="contact">
       <div className="section-heading">
-        <h1 id="contact">Get in touch</h1>
+        <h2 id="contact">Get in touch</h2>
       </div>
       <div className="contact-container center">
         <form onSubmit={onSubmit} className="contact-form" aria-labelledby="contact">
           <input type="text" name="name" required className="contact-name" placeholder="Your Name" aria-label="Your Name" autoComplete="name"/>
           <input type="email" name="email" required className="contact-email" placeholder="Your Email" aria-label="Your Email" autoComplete="email"/>
           <textarea name="message" required className="contact-message" placeholder="Message" aria-label="Message"></textarea>
-          <button aria-label="Submit contact form">Submit Form</button>
+          <button aria-label="Submit contact form" type="submit">Submit Form</button>
           {/*<span>{result}</span>*/}
         </form>
 
@@ -71,6 +71,6 @@ export default function ContactForm() {
       <div className="section-splitter" role="separator" aria-hidden="true"></div>
 
     </div>
-    </>
+    </section>
   );
 }
