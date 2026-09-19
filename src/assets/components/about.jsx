@@ -14,7 +14,7 @@ export default function About(){
         <div className="about-container" role="main">
             <div className="title-container">
                 <h1 className="title">Hi! I'm </h1>
-                <h1 className="sub-title">Deepak Singh</h1>
+                <h1 className="title">Deepak Singh</h1>
                 <h2 className="sub-title">Software Engineer</h2>
                 <div className="links-container" aria-label="Social media and contact links">
                     <button className="link-button icon-color-1" onClick={() => handleClick(1)}
