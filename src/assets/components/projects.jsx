@@ -66,7 +66,7 @@ export default function Projects(){
     ];
 
     return(
-        <section>
+        <section aria-labelledby="projects-heading">
         <div className="section-heading">
             <h1 id="projects">Projects</h1>
         </div>
@@ -74,18 +74,18 @@ export default function Projects(){
 
             {projects.map((project) => {
                 return(
-                    <div key={project.id} className={`project edges ${project.id % 2 === 0 ? "left-animation" : "right-animation"}`}>
+                    <article key={project.id} className={`project edges ${project.id % 2 === 0 ? "left-animation" : "right-animation"}`}>
                         <img src={project.image}  className="project-image" alt="Project Image" loading="lazy"></img>
                         <div className="text-area">
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
                             <p className="tech-stack"><b>Tech-stack:</b>{project.techStack}</p>
                             <div className="project-buttons">
-                            <button onClick={() => window.open(`${project.liveLink}`, "_blank")}>Live link <sup>↗</sup></button>
-                            <button onClick={() => window.open(`${project.viewCode}`, "_blank")}>View Code <sup>↗</sup></button>
+                            <button onClick={() => window.open(`${project.liveLink}`, "_blank")} aria-label={`View live demo of ${project.title}`}>Live link</button>
+                            <button onClick={() => window.open(`${project.viewCode}`, "_blank")} aria-label={`View code of ${project.title}`}>View Code</button>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 )
             })}
             
