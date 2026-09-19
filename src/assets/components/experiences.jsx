@@ -1,16 +1,18 @@
 export default function Experience(){    
     return(
-        <>
+        <section aria-labelledby="experience-heading">
             <div className="section-heading">
-                <h1 id="experience">Experience</h1>
+                <h2 id="experience">Experience</h2>
             </div>
             
             <div className="experience-container center">
-                    <div className="experience bottom-animation">
-                        <div className="experience-heading">
+                    <article className="experience bottom-animation">
+                        <header className="experience-heading">
                             <h3 className="experience-title">Frontend Developer Intern, Unified Mentors</h3>
-                            <p className="experience-duration">March 2025- September 2025</p>
-                        </div>
+                            <p className="experience-duration">
+                                <time dateTime="2025-03">March 2025</time> - <time dateTime="2025-09">September 2025</time>
+                            </p>
+                        </header>
                         <div className="experience-description">
                             <ul>
                                 <li>Developed and maintained responsive React applications for desktop, tablet &amp; mobile platforms.</li>
@@ -20,13 +22,15 @@ export default function Experience(){
                                 <li>Successfully delivered all mandatory projects and side projects within time frame.</li>
                             </ul>
                         </div>
-                    </div>
+                    </article>
     
-                    <div className="experience bottom-animation">
-                        <div className="experience-heading">
+                    <article className="experience bottom-animation">
+                        <header className="experience-heading">
                             <h3 className="experience-title">Freelancer</h3>
-                            <p className="experience-duration">September 2025- June 2026</p>
-                        </div>
+                            <p className="experience-duration">
+                                <time dateTime="2025-09">September 2025</time> - <time dateTime="2026-06">June 2026</time>
+                            </p>
+                        </header>
                         <div className="experience-description">
                             <ul>
                                 <li>I build clean, modern, and fully responsive websites using HTML, CSS, JavaScript, and React, ensuring they work smoothly across all devices.</li>
@@ -34,9 +38,9 @@ export default function Experience(){
                                 <li>Available for small tasks like landing pages, UI fixes, HTML/CSS conversions, and React component development with quick delivery.</li>
                             </ul>
                         </div>
-                    </div>
+                    </article>
                 </div>
 
-        </>
+        </section>
     )
 }
