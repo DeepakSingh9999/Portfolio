@@ -8,7 +8,7 @@ export default function Header(){
     const [isOpen, setIsOpen] = useState(false);
 
     return(
-        <div className="header-container">
+        <header className="header-container">
             <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" ></img>
             
             <div className='top-right-corner'>
@@ -20,16 +20,23 @@ export default function Header(){
                 </button>
                 {isOpen && (
                     <div className="watermark  cover-right">
-                    <div className="overlay cover-right">
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks" aria-label="Close navigation menu"><i className="fa-solid fa-xmark" aria-hidden="true"></i></button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#about">About</a></button>
-                        <button onClick={() => window.open(resumLink, "_blank")} className="navlinks" rel="noreferrer" aria-label="Download Resume in a new tab">Resume ⤓</button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#skills">Skills</a></button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#projects">Projects</a></button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#experience">Experience</a></button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#certificates">Certificates</a></button>
-                        <button onClick={() => setIsOpen((!isOpen))} className="navlinks"><a href="#contact">Contact</a></button>
-                    </div>
+                        <div className="overlay cover-right" role="dialog" aria-modal="true" aria-label="Navigation Menu">
+                            <button onClick={() => setIsOpen((!isOpen))} className="navlinks" aria-label="Close navigation menu">
+                                <i className="fa-solid fa-xmark" aria-hidden="true"></i>
+                            </button>
+                        
+                            <a href="#about" onClick={() => setIsOpen((!isOpen))} className="navlinks">About</a>
+                        
+                            <button onClick={() => window.open(resumLink, "_blank")} className="navlinks" rel="noreferrer" aria-label="Download Resume in a new tab">Resume ⤓</button>
+                        
+                            <a href="#skills" onClick={() => setIsOpen((!isOpen))} className="navlinks">Skills</a>
+                        
+                            <a href="#projects" onClick={() => setIsOpen((!isOpen))} className="navlinks">Projects</a>
+                        
+                            <a href="#experience" onClick={() => setIsOpen((!isOpen))} className="navlinks">Experience</a>
+                            <a href="#certificates" onClick={() => setIsOpen((!isOpen))} className="navlinks">Certificates</a>
+                            <a href="#contact" onClick={() => setIsOpen((!isOpen))} className="navlinks">Contact</a>
+                        </div>
                     </div>
                 )}
             </nav>
