@@ -1,0 +1,6 @@
+# Allow all search engine crawlers full access
+User-agent: *
+Allow: /
+
+# Direct search engines to your XML sitemap
+Sitemap: https://portfolio-eta-eosin-58.vercel.app/sitemap.xml
