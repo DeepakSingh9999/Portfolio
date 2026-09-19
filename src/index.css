@@ -347,7 +347,7 @@
         }
         .contact-name:focus, .contact-email:focus, .contact-message:focus{
         outline: none;
-        border: 0.1rem solid #051c2c;
+        border-bottom: 1px solid #051c2c;
         }
         .contact-form > button {
         margin: 0.2em;

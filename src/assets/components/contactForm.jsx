@@ -59,17 +59,17 @@ export default function ContactForm() {
       <div className="contact-container center">
         <form onSubmit={onSubmit} className="contact-form">
           <div className="form-group">
-          <label htmlFor="name-input" className="sr-only">Your Name</label>
+          <label htmlFor="name-input">Name:</label>
           <input type="text" name="name" required className="contact-name" placeholder="Your Name" autoComplete="name"/>
           </div>
 
           <div className="form-group">
-          <label htmlFor="email-input">Your Email</label>
+          <label htmlFor="email-input">Email:</label>
           <input type="email" name="email" required className="contact-email" placeholder="Your Email" autoComplete="email"/>
           </div>
 
           <div className="form-group">
-          <label htmlFor="message-input">Message</label>
+          <label htmlFor="message-input">Message:</label>
           <textarea name="message" required className="contact-message" placeholder="Message"></textarea>
           </div>
             
