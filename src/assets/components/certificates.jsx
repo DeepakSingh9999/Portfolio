@@ -36,7 +36,7 @@ export default function Certificates(){
     return(
         <section aria-labelledby="certificates">
         <div className="section-heading">
-            <h1 id="certificates">Certificates</h1>
+            <h2 id="certificates">Certificates</h2>
         </div>
         <div className="certificate-container center">
             {items.map((item) => {
