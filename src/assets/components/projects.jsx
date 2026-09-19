@@ -68,7 +68,7 @@ export default function Projects(){
     return(
         <section aria-labelledby="projects-heading">
         <div className="section-heading">
-            <h1 id="projects">Projects</h1>
+            <h2 id="projects">Projects</h2>
         </div>
         <div className="project-container center">
 
