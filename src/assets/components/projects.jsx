@@ -66,7 +66,7 @@ export default function Projects(){
     ];
 
     return(
-        <>
+        <section>
         <div className="section-heading">
             <h1 id="projects">Projects</h1>
         </div>
@@ -82,7 +82,7 @@ export default function Projects(){
                             <p className="tech-stack"><b>Tech-stack:</b>{project.techStack}</p>
                             <div className="project-buttons">
                             <button onClick={() => window.open(`${project.liveLink}`, "_blank")}>Live link <sup>↗</sup></button>
-                            <button onClick={() => window.open(`${project.viewCode}`, "_blank")}>View Code</button>
+                            <button onClick={() => window.open(`${project.viewCode}`, "_blank")}>View Code <sup>↗</sup></button>
                             </div>
                         </div>
                     </div>
@@ -90,6 +90,6 @@ export default function Projects(){
             })}
             
         </div>
-        </>
+        </section>
     )
 }
