@@ -698,7 +698,7 @@ body{
   justify-content: center;
 }
 
-.contact-name, .contact-email, .contact-message{
+.contact-name, .contact-email, .contact-message, .form-group{
   font-family: inherit;
   font-weight: 400;
   width: 70%;
