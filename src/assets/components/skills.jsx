@@ -96,22 +96,22 @@ export default function Skills(){
     ];
 
     return(
-        <>
+        <section aria-labelledby="skills">
         <div className="section-heading">
-            <h1 id="skills">Skills</h1>
+            <h2 id="skills">Skills</h2>
         </div>
-        <div className="skills-container center">
+        <ul className="skills-container center">
             {skills.map((skill) => {
                 return (    
-                <div key={skill.id} className="tablet bottom-animation">
-                    <i className={skill.classes}></i>
+                <li key={skill.id} className="tablet bottom-animation">
+                    <i className={skill.classes} aria-hidden="true"></i>
                     <p className="skill-text">{skill.title}</p>
-                </div>
+                </li>
                 )
             })}
 
-        </div>
+        </ul>
         
-        </>
+        </section>
     )
 }
