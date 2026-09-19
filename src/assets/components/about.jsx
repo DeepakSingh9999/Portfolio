@@ -32,7 +32,7 @@ export default function About(){
             </header>
             
             <div className="image-container">
-                <img src={image} alt="Hero Image"></img>
+                <img src={image} alt="Hero Image" fetchpriority="high"></img>
             </div>
         </main>
     )
