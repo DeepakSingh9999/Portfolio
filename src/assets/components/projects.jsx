@@ -81,7 +81,7 @@ export default function Projects(){
                             <p className="project-description">{project.description}</p>
                             <p className="tech-stack"><b>Tech-stack:</b>{project.techStack}</p>
                             <div className="project-buttons">
-                            <button onClick={() => window.open(`${project.liveLink}`, "_blank")}>Live link</button>
+                            <button onClick={() => window.open(`${project.liveLink}`, "_blank")}>Live link↗</button>
                             <button onClick={() => window.open(`${project.viewCode}`, "_blank")}>View Code</button>
                             </div>
                         </div>
