@@ -309,6 +309,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  font-weight: 100;
 }
 
 .sub-title{
@@ -318,6 +319,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  font-weight: 100;
 }
 .links-container{
   display: flex;
