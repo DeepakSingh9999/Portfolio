@@ -34,26 +34,26 @@ export default function Certificates(){
     ];
 
     return(
-        <>
+        <section aria-labelledby="certificates">
         <div className="section-heading">
             <h1 id="certificates">Certificates</h1>
         </div>
         <div className="certificate-container center">
             {items.map((item) => {
                 return (
-                    <div key={item.id} className="certificate edges opacity-animation">
+                    <article key={item.id} className="certificate edges opacity-animation">
                         <img src={item.thumbnail}  className="certificate-image" alt="Certifiacte Image" loading="lazy" ></img>
                         <div className="text-area-certificate">
                             <h3 className="certificate-title">{item.title}</h3>
                             <p className="certificate-description">{item.description}</p>
-                            <button onClick={() => window.open(`${item.certificatelink}`, "_blank")}>View Certificate</button>
+                            <button onClick={() => window.open(`${item.certificatelink}`, "_blank")} aria-label={`View ${item.title} certificate in a new tab`}>View Certificate</button>
                         </div>
-                    </div>
+                    </article>
                 )
             })}
             
         </div>
 
-        </>
+        </section>
     )
 }
