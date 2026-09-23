@@ -11,7 +11,7 @@ export default function Header(){
 
     return(
         <header className="header-container">
-            <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" width="auto" height="auto"></img>
+            <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" width="39" height="40"></img>
             
             <div className='top-right-corner'>
             <button onClick={() => window.open(resumLink, "_blank")} className="download-button" aria-label="Download Resume in a new tab">Resume ⤓</button>
