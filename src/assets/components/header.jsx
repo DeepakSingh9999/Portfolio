@@ -1,5 +1,7 @@
+import { IconMenu2, IconX } from '@tabler/icons-react';
+
 import {useState} from 'react';
-import icon from '../images/flower.webp'
+import icon from '../images/flower.webp';
 
 export default function Header(){
     const resumLink = "https://drive.google.com/uc?export=download&id=1jtDQURtXaKfPs5A7LUWQlzKzjG8rOLvE";
@@ -9,20 +11,20 @@ export default function Header(){
 
     return(
         <header className="header-container">
-            <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" ></img>
+            <img src={icon} alt="Logo" className="logo rotating-animation" loading="lazy" width="auto" height="auto"></img>
             
             <div className='top-right-corner'>
             <button onClick={() => window.open(resumLink, "_blank")} className="download-button" aria-label="Download Resume in a new tab">Resume ⤓</button>
         
             <nav className="navdiv" aria-label="Main Navigation">
                 <button onClick={() => setIsOpen((!isOpen))} className="navOpenButton" aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"} aria-expanded={isOpen} aria-controls="navigation-overlay">
-                    <i className="fa-solid fa-grip-lines"></i>
+                    <IconMenu2 stroke={2} color="#ffffff" />
                 </button>
                 {isOpen && (
                     <div className="watermark  cover-right">
                         <div className="overlay cover-right" role="dialog" aria-modal="true" aria-label="Navigation Menu">
                             <button onClick={() => setIsOpen((!isOpen))} className="navlinks" aria-label="Close navigation menu">
-                                <i className="fa-solid fa-xmark" aria-hidden="true"></i>
+                                <IconX />
                             </button>
                         
                             <a href="#about" onClick={() => setIsOpen((!isOpen))} className="navlinks">About</a>

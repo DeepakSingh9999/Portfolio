@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'InstrumentSerif';
-  src: url(./assets/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf),
-    url(./assets/fonts/Instrument_Serif/InstrumentSerif-Italic.ttf);
+  src: url(./assets/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -219,6 +218,7 @@ body{
   outline: none;
   border: 0.08rem solid gray;
   font-size: 1.4rem;
+  justify-content: center;
 }
 .watermark{  
   position: fixed;
@@ -326,7 +326,7 @@ body{
 }
 .links-container{
   display: flex;
-  padding: 0;
+  padding: 5px;
   border-radius: 3em;
   max-width: min-content;
   background-color: transparent;
@@ -478,7 +478,7 @@ body{
   -webkit-background-clip: text;
   color: transparent;
 }
-
+ 
 
 .skill-text{
   display: flex;

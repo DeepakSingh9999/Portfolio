@@ -129,7 +129,7 @@
     }
     .links-container{
     display: flex;
-    padding: 0;
+    padding: 5px;
     border-radius: 3em;
     max-width: min-content;
     background-color: transparent;

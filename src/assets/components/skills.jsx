@@ -1,117 +1,108 @@
-export default function Skills(){
+import { 
+  IconBrandJavascript, 
+  IconBrandPython, 
+  IconBrandReact, 
+  IconBrandNodejs, 
+  IconSql,
+  IconBrandGit, 
+  IconBrandGitlab,
+  IconBrandHtml5,
+  IconFileTypeCss,
+  IconBrandBootstrap,
+  IconFileDatabase,
+  IconBinaryTree,
+  IconTools,
+  IconDevicesCode,
+  IconUserBolt,
+  IconBulb,
+  IconBrandGoogle,
+  IconPhoneDone,
+  IconHelp
 
-    const skills = [
+} from '@tabler/icons-react';
 
-        {id: 1,
-            title: 'JavaScript',
-            classes : 'fa-brands fa-js skill',
-        },
-              
-        {id: 2,
-            title: 'React.js',
-            classes : 'fa-brands fa-react skill',
-        },
+const iconMap = {
+  javascript: IconBrandJavascript,
+  python: IconBrandPython,
+  react: IconBrandReact,
+  node: IconBrandNodejs,
+  sql: IconSql,
+  git: IconBrandGit,
+  gitlab: IconBrandGitlab,
+  html: IconBrandHtml5,
+  css: IconFileTypeCss,
+  bootstrap: IconBrandBootstrap,
+  datastructures: IconFileDatabase,
+  algorithms: IconBinaryTree,
+  test: IconTools,
+  debug: IconDevicesCode,
+  bot: IconUserBolt,
+  bulb: IconBulb,
+  google: IconBrandGoogle,
+  phone: IconPhoneDone
+};
 
-        {id: 3,
-            title: 'Node.js',
-            classes : 'fa-brands fa-node-js skill',
-        },
+const menuItems = [
+  { id: 1, label: 'JavaScript', iconName: 'javascript' },
+  { id: 2, label: 'Python', iconName: 'python' },
+  { id: 3, label: 'React', iconName: 'react' },
+  { id: 4, label: 'Node', iconName: 'node' },
+  { id: 5, label: 'Sql', iconName: 'sql' },  
+  { id: 6, label: 'Git', iconName: 'git' },
+  { id: 7, label: 'Gitlab', iconName: 'gitlab' },
+  { id: 8, label: 'HTML', iconName: 'html' },
+  { id: 9, label: 'CSS', iconName: 'css' },
+  { id: 10, label: 'Bootstrap', iconName: 'bootstrap' },  
+  { id: 11, label: 'Data Structures', iconName: 'datastructures' },
+  { id: 12, label: 'Algorithms', iconName: 'algorithms' },
+  { id: 13, label: 'Testing', iconName: 'test' },
+  { id: 14, label: 'Debugging', iconName: 'debug' },
+  { id: 15, label: 'GenAI', iconName: 'bot' },
+  { id: 16, label: 'Problem Solving', iconName: 'bulb' },
+  { id: 17, label: 'Google Workspace', iconName: 'google' },
+  { id: 18, label: 'Communication', iconName: 'phone' },
+];
 
-        {id: 4,
-            title: 'SQL',
-            classes : 'fa-solid fa-database skill',
-        },
 
-        {id: 5,
-            title: 'Git',
-            classes : 'fa-brands fa-git-alt skill',
-        },
-               
-        {id: 6,
-            title: 'Gitlab',
-            classes : 'fa-brands fa-gitlab skill',
-        },
-        
-        {id: 7,
-            title: 'Python',
-            classes : 'fa-brands fa-python skill',
-        },
-        
-        {id: 8,
-            title: 'HTML',
-            classes : 'fa-brands fa-html5 skill',
-        },
-        
-        {id: 9,
-            title: 'CSS',
-            classes : 'fa-brands fa-css3-alt skill',
-        },
-        
-        {id: 10,
-            title: 'Bootstrap',
-            classes : 'fa-brands fa-bootstrap skill',
-        },
-        
-        {id: 11,
-            title: 'Data Structures',
-            classes : 'fa-brands fa-buffer skill',
-        },
-        
-        {id: 12,
-            title: 'Algorithms',
-            classes : 'fa-solid fa-chart-simple skill',
-        },
-        
-        {id: 13,
-            title: 'Software Testing',
-            classes : 'fa-brands fa-sistrix skill',
-        },
-        
-        {id: 14,
-            title: 'Debugging',
-            classes : 'fa-solid fa-virus-slash skill',
-        },
-        
-        {id: 15,
-            title: 'Problem Solving',
-            classes : 'fa-solid fa-lightbulb skill',
-        },
-        
-        {id: 16,
-            title: 'GenAI',
-            classes : 'fa-solid fa-robot skill',
-        },      
-        
-        {id: 17,
-            title: 'Google Workspace',
-            classes : 'fa-brands fa-google skill',
-        },
-        
-        {id: 18,
-            title: 'Communication',
-            classes : 'fa-solid fa-phone skill',
-        },
-        
-        
-    ];
+function GradientStar() {
+  const gradientId = 'yellow-red-gradient';
 
-    return(
-        <section aria-labelledby="skills">
-        <div className="section-heading">
-            <h2 id="skills">Skills</h2>
-        </div>
-        <ul className="skills-container center">
-            {skills.map((skill) => {
-                return (    
-                <li key={skill.id} className="tablet bottom-animation">
-                    <i className={skill.classes} aria-hidden="true"></i>
-                    <p className="skill-text">{skill.title}</p>
-                </li>
-                )
-            })}
-
-        </ul>
-        
-        </section>
-    )
+  return (
+    <svg width="0" height="0" style={{ position: 'absolute' }}>
+      <defs>
+        <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="orange" />
+          <stop offset="100%" stopColor="red" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
 }
+
+
+
+function Skills() {
+  return (
+    <section aria-labelledby="skills">
+      <div className="section-heading">
+        <h2 id="skills">Skills</h2>
+      </div>
+
+      <ul className="skills-container center">
+        {menuItems.map(({id, iconName, label}) => {
+          const SelectedIcon = iconMap[iconName] || IconHelp;
+
+          return (
+            <li key={id}  className="tablet bottom-animation">
+                <GradientStar />
+                <SelectedIcon size={60} stroke={1.5} style={{ stroke: `url(#yellow-red-gradient)` }}/>
+                <p className="skill-text">{label}</p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
+
+export default Skills;
