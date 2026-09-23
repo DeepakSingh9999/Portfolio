@@ -17,7 +17,7 @@ I'm curious to learn new technologies while solving complex problems, and creati
     return(
         <>
         <div className="section-heading">
-            <h1 id="about">About me</h1>
+            <h2 id="about">About me</h2>
         </div>
         <div className="readmore-container center">
             <p className="readmore-description">
