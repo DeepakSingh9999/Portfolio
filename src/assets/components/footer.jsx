@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer className="footer-container" aria-label="Site Footer">
-            <strong><em>The knower of truth can't be stressed.</em></strong>
+            <strong><em>The knower of truth is never distressed.</em></strong>
         </footer>
     )
 }
