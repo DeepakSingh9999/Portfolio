@@ -441,7 +441,7 @@ body{
 .readmore-button{
   display: inline;
   margin: 0;
-  color: gray;
+  color: red;
   font-family: inherit;
   cursor: pointer;
 }
