@@ -1,6 +1,6 @@
 # Personal Portfolio 👨🏻‍💻
 
-Welcome to my personal portfolio! This project showcases my skills, projects, and experiences as a web developer. Built with Vite and React, the portfolio provides a fast and modern user experience.
+Welcome to my personal portfolio! This project showcases my skills, projects, & experiences as a software developer. Built with Vite and React, the portfolio provides a fast and modern user experience.
 
 ## Live Link:
 https://portfolio-eta-eosin-58.vercel.app/
