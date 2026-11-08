@@ -6,7 +6,6 @@ import icon from '../images/flower.webp';
 export default function Header(){
     const resumLink = "https://drive.google.com/uc?export=download&id=1kfx6CoD-xvX1mQQYM5zx9fCFG2XWieT7";
     //https://drive.google.com/file/d/1kfx6CoD-xvX1mQQYM5zx9fCFG2XWieT7/view?usp=sharing
-    //https://drive.google.com/file/d/1A3W2OvVmPxjf_Ls6-F6_Jqti_ftGeBDz/view?usp=sharing
 
     const [isOpen, setIsOpen] = useState(false);
 
