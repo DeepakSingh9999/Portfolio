@@ -32,8 +32,8 @@ export default function Projects(){
             image: `${projectLink3}`,
             description: `A command-line implementation of the classic Tic-Tac-Toe game featuring an intelligent AI opponent powered by the **Minimax algorithm**. The AI calculates optimal moves recursively, making it completely unbeatable you can either tie or lose!`,
             techStack: 'Python',
-            liveLink: '',
-            viewCode: 'https://github.com/DeepakSingh9999/AI'
+            liveLink: 'https://github.com/DeepakSingh9999/AI-Tic-Tac-Toe',
+            viewCode: 'https://github.com/DeepakSingh9999/AI-Tic-Tac-Toe'
         },
         
         {id: 4,
