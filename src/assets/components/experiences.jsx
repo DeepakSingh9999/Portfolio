@@ -15,11 +15,11 @@ export default function Experience(){
                         </header>
                         <div className="experience-description">
                             <ul>
-                                <li>Developed and maintained responsive React applications for desktop, tablet &amp; mobile platforms.</li>
-                                <li>Built reusable UI components to improve code maintainability.</li>
-                                <li>Translated complex UI wire frames into interactive web pages, collaborating closely with designers to ensure pixel perfect and consistent design implementation.</li>
-                                <li>Optimized front end performance &amp; loading speeds while systematically troubleshooting and resolving cross browser bugs to improve overall usability and accessibility.</li>
-                                <li>Successfully delivered all mandatory projects and side projects within time frame.</li>
+                                <li>Translated Figma designs into responsive, production ready interfaces with consistent praise from product design teams for visual accuracy and attention to detail.</li>
+                                <li>Delivered reusable UI components with semantic HTML, keyboard navigation, and screen reader considerations for a physician-facing healthcare application.</li>
+                                <li>Refactored the legacy image assets across the React application to high performance AVIF formats drastically improving load times.</li>
+                                <li>Replaced external CDN based icons with a localized static icon pack (Tabler Icons), reducing network overhead, eliminating third-party dependencies, and streamlining bundle size.</li>
+                                <li>Achieved Lighthouse performance scores from 65 to 97 by modernizing assets and implementing lazy loading.</li>
                             </ul>
                         </div>
                     </article>
