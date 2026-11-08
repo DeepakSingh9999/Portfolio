@@ -18,8 +18,8 @@ export default function Experience(){
                                 <li>Translated Figma designs into responsive, production ready interfaces with consistent praise from product design teams for visual accuracy and attention to detail.</li>
                                 <li>Delivered reusable UI components with semantic HTML, keyboard navigation, and screen reader considerations for a physician-facing healthcare application.</li>
                                 <li>Refactored the legacy image assets across the React application to high performance AVIF formats drastically improving load times.</li>
-                                <li>Replaced external CDN based icons with a localized static icon pack (Tabler Icons), reducing network overhead, eliminating third-party dependencies, and streamlining bundle size.</li>
-                                <li>Achieved Lighthouse performance scores from 65 to 97 by modernizing assets and implementing lazy loading.</li>
+                                <li>Replaced external CDN based icons with a localized static icon pack (Tabler Icons), reducing network overhead, and improving bundle size.</li>
+                                <li>•	Achieved FCP & LCP below 1.5s, increasing Lighthouse performance scores from 65 to 97 by modernizing assets, eliminating third party dependencies and implementing lazy loading..</li>
                             </ul>
                         </div>
                     </article>
