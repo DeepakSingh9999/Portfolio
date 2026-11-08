@@ -25,7 +25,7 @@ import {
 const iconMap = {
   javascript: IconBrandJavascript,
   python: IconBrandPython,
-  c: IconHexogonLetterC,
+  c: IconHexagonLetterC,
   react: IconBrandReact,
   node: IconBrandNodejs,
   sql: IconSql,
