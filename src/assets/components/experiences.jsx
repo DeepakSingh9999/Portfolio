@@ -19,7 +19,7 @@ export default function Experience(){
                                 <li>Delivered reusable UI components with semantic HTML, keyboard navigation, and screen reader considerations for a physician-facing healthcare application.</li>
                                 <li>Refactored the legacy image assets across the React application to high performance AVIF formats drastically improving load times.</li>
                                 <li>Replaced external CDN based icons with a localized static icon pack (Tabler Icons), reducing network overhead, and improving bundle size.</li>
-                                <li>•	Achieved FCP & LCP below 1.5s, increasing Lighthouse performance scores from 65 to 97 by modernizing assets, eliminating third party dependencies and implementing lazy loading..</li>
+                                <li>Achieved FCP & LCP below 1.5s, increasing Lighthouse performance scores from 65 to 97 by modernizing assets, eliminating third party dependencies and implementing lazy loading..</li>
                             </ul>
                         </div>
                     </article>
