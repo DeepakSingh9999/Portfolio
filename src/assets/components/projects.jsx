@@ -4,7 +4,6 @@ import projectLink3 from '../images/project-ticTacToe.png'
 import projectLink4 from '../images/project-chef.png'
 import projectLink5 from '../images/project-tenzie.png'
 import projectLink6 from '../images/project-clone.png'
-import projectLink7 from '../images/project-journal.webp'
 
 
 export default function Projects(){
@@ -64,14 +63,6 @@ export default function Projects(){
             viewCode: 'https://github.com/DeepakSingh9999/Search-Clone'
         },
         
-        {id: 7,
-            title: 'My Travel Journal',
-            image: `${projectLink7}`,
-            description: 'This React application uses arrays to store and manage a list of data items, and props to pass this data to child components for display. It showcases how to use these React features for efficient rendering of multiple elements, making it easy to dynamically manage data and structure.',
-            techStack: 'HTML, CSS, JSX, REACT',
-            liveLink: 'https://react-travel-journal-two.vercel.app/',
-            viewCode: 'https://github.com/DeepakSingh9999/React-Travel-Journal'
-        },
 
     ];
 
